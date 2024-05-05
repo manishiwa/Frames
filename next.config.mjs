@@ -1,7 +1,6 @@
-/** @type {import('next').NextConfig} */
 const nextConfig = {
   reactStrictMode: true,
-  async redirects(){
+  async redirects() {
     return [
       {
         source: '/growthepie',
@@ -17,4 +16,4 @@ const nextConfig = {
   }
 };
 
-module.exports = nextConfig;
+export default nextConfig;
