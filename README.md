@@ -4,6 +4,10 @@ Used the tutorial on [youtube](https://www.youtube.com/watch?v=wUt5NjXHSO4)
 The docs to the tutorial [Pinata](https://www.pinata.cloud/blog/how-to-make-a-frame-on-farcaster-using-ipfs)
 The files are [here](https://teal-famous-emu-913.mypinata.cloud/ipfs/QmY24GiPcr2WSGhsRzWeREpVtsAkkvCY7e4ChYGpq2diVV/)
 
+.env.local
+NEXT_PUBLIC_GATEWAY_URL=https://teal-famous-emu-913.mypinata.cloud
+NEXT_PUBLIC_BASE_URL=http://localhost:3000
+
 
 
 This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
