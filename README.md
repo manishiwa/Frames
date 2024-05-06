@@ -1,3 +1,11 @@
+This frame will show a slideshow of all the Metrics available for Mode on the launch day on growthepie. In the end it generates two buttons to either direct the user to the growthepie.xyz or the Single Chain View for Mode.
+
+Used the tutorial on [youtube](https://www.youtube.com/watch?v=wUt5NjXHSO4)
+The docs to the tutorial [Pinata](https://www.pinata.cloud/blog/how-to-make-a-frame-on-farcaster-using-ipfs)
+The files are [here](https://teal-famous-emu-913.mypinata.cloud/ipfs/QmY24GiPcr2WSGhsRzWeREpVtsAkkvCY7e4ChYGpq2diVV/)
+
+
+
 This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
 
 ## Getting Started
