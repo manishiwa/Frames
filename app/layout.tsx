@@ -21,7 +21,21 @@ export const metadata: Metadata = {
 export default function RootLayout({ children }: { children: React.ReactNode }) {
   return (
     <html lang="en">
-      <body>{children}</body>
+      <body>
+        {children}
+        <div><pre>{JSON.stringify({
+        title: 'Mode is available now',
+        description: 'A frame of all the metrics at launch',
+        openGraph: {
+          title: 'Mode is available now',
+          description: 'A frame of all the metrics at launch',
+          images: [`${process.env.NEXT_PUBLIC_GATEWAY_URL}/ipfs/QmY24GiPcr2WSGhsRzWeREpVtsAkkvCY7e4ChYGpq2diVV/1.png`],
+        },
+        other: {
+          ...frameMetadata,
+        },
+      }, null, 2)}</pre></div>
+      </body>
     </html>
   );
 }
